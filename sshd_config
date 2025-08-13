@@ -1,0 +1,6 @@
+# /etc/ssh/sshd_config
+
+
+# For monitoring and logging authentication attempts
+SyslogFacility AUTH
+LogLevel INFO

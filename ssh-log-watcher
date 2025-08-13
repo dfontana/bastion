@@ -1,0 +1,16 @@
+#!/sbin/openrc-run
+#
+# Place this file at: /etc/init.d/ssh-log-watcher
+# Purpose:
+#     OpenRC unit for launching the ssh-log-watcher which will track
+#     any ssh authentications discovered
+
+command="/usr/local/bin/ssh-log-watcher.sh"
+command_background=true
+pidfile="/var/run/ssh-log-watcher.pid"
+
+depend() {
+    need syslog
+    after net
+}
+
