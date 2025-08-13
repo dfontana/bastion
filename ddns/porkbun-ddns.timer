@@ -1,0 +1,13 @@
+# /etc/systemd/system/porkbun-ddns@.timer
+[Unit]
+Description=Run Porkbun Dynamic DNS Update for %i every 30 minutes
+Requires=porkbun-ddns.service
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=30min
+RandomizedDelaySec=30
+Persistent=true
+
+[Install]
+WantedBy=timers.target

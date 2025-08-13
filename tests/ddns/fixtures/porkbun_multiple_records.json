@@ -1,0 +1,19 @@
+{
+  "status": "SUCCESS",
+  "records": [
+    {
+      "id": "12345",
+      "name": "test",
+      "type": "A",
+      "content": "192.168.1.50",
+      "ttl": "300"
+    },
+    {
+      "id": "12346",
+      "name": "test",
+      "type": "A",
+      "content": "192.168.1.51",
+      "ttl": "600"
+    }
+  ]
+}

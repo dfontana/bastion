@@ -7,6 +7,7 @@
 # Check if ripgrep is available
 command -v rg >/dev/null 2>&1 || { echo "ripgrep (rg) is required but not found. Please install it." >&2; exit 1; }
 
+# TODO: Maybe this script should pipe into the notify CMD instead of calling it
 NOTIFY_CMD="${NOTIFY_CMD:-/usr/local/bin/notify.sh}"
 LOGFILE="/var/log/auth.log"
 

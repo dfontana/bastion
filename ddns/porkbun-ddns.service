@@ -1,0 +1,32 @@
+# /etc/systemd/system/porkbun-ddns@.service
+[Unit]
+Description=Porkbun Dynamic DNS Update for %i
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ddns
+Group=ddns
+ExecStart=/usr/local/bin/porkbun-ddns.sh %i
+StandardOutput=journal
+StandardError=journal
+# Security hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RestrictRealtime=true
+RestrictNamespaces=true
+LockPersonality=true
+MemoryDenyWriteExecute=true
+RemoveIPC=true
+# Allow network access
+PrivateNetwork=false
+# Load credentials from systemd
+LoadCredential=porkbun-api-key:/etc/porkbun/api-key
+LoadCredential=porkbun-api-secret:/etc/porkbun/api-secret
