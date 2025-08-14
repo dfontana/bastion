@@ -8,6 +8,9 @@ command -v rg >/dev/null 2>&1 || { echo "ripgrep (rg) is required but not found.
 command -v jq >/dev/null 2>&1 || { echo "jq is required but not found. Please install it." >&2; exit 1; }
 
 IFS= read -r line
+if [ -z "$line" ]; then
+  exit 0
+fi
 
 case "$line" in
   *"Accepted "*)

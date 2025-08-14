@@ -7,12 +7,15 @@
 #   WEBHOOK=".." = Discord webhook URL to post to.
 
 if [ -z "$WEBHOOK_URL" ]; then
-  echo "Missing webhook URL, set env var"
+  echo "Missing webhook URL, set env var" >&2
   exit 1
 fi
 URL="$WEBHOOK_URL?wait=true"
 
 IFS= read -r line
+if [ -z "$line" ]; then
+  exit 0
+fi
 curl -fs -H "Content-Type: application/json" \
 -X POST \
 -d "$line" \

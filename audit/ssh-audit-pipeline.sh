@@ -10,10 +10,9 @@ if [ ! -f "$LOGFILE" ]; then
 fi
 
 # Use tail -F so rotation is handled. Start from new lines only.
-# TODO: May need to loop over tail w/ | while IFS= read -r line; do
-#       to ensure pipeline runs 1x per log line
-tail -n0 -F "$LOGFILE" 2>/dev/null  \
- | ./ssh-parse-logins.sh \
- | ./discord-ssh-message.sh \
- | ./discord-notify.sh
-
+tail -n0 -F "$LOGFILE" 2>/dev/null \
+| while IFS= read -r line; do
+  ./ssh-parse-logins.sh  <<< "$line" \
+  | ./discord-ssh-message.sh \
+  | ./discord-notify.sh
+done

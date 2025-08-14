@@ -6,6 +6,10 @@
 command -v jq >/dev/null 2>&1 || { echo "jq is required but not found. Please install it." >&2; exit 1; }
 
 read -r line
+if [ -z "$line" ]; then
+  exit 0
+fi
+
 status=$(jq -r '.status' <<< "$line")
 user=$(jq -r '.user' <<< "$line")
 ip=$(jq -r '.ip' <<< "$line")
@@ -14,11 +18,11 @@ logLine=$(jq -r '.logLine' <<< "$line")
 
 for var in status user ip port logLine; do
   if [ -z "${!var}" ] || [ "${!var}" = 'null' ]; then
-    echo "Missing ${var}"
+    echo "Missing ${var}" >&2
     exit 1
   fi
 done
-[ "$status" != 'accepted' ] && [ "$status" != 'failed' ] && echo "Status must be 'accepted' or 'failed'" && exit 1
+[ "$status" != 'accepted' ] && [ "$status" != 'failed' ] && echo "Status must be 'accepted' or 'failed'" >&2 && exit 1
 
 color_ok=65520
 color_alert=16711680
