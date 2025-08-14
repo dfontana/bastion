@@ -5,6 +5,8 @@
 #     OpenRC unit for launching the ssh-log-watcher which will track
 #     any ssh authentications discovered
 
+# TODO: Change this to the pipeline
+#       And set the necessary env vars (from where?)
 command="/usr/local/bin/ssh-log-watcher.sh"
 command_background=true
 pidfile="/var/run/ssh-log-watcher.pid"

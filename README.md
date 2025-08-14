@@ -13,7 +13,7 @@
     rc-update add ssh-log-watcher default
     rc-service ssh-log-watcher start
     ```
-- Run the test suite to make sure log matching is functional on the given platform (TODO: Swap in a tool that is platform agnostic?)
+- Run the test suite to make sure log matching is functional on the given platform
     
 
 ## Testing
@@ -39,11 +39,7 @@ sudo ./install.sh /usr/local
 ### Running Tests
 
 ```bash
-# Run all tests
-bats tests/
-
-# Run specific test file
-bats tests/test_notify.sh
+bats test/**/*.sh
 ```
 
 ### Example Test
@@ -51,8 +47,8 @@ bats tests/test_notify.sh
 ```bash
 #!/usr/bin/env bats
 
-@test "notify.sh validates required arguments" {
-  run ./notify.sh
+@test "validates required arguments" {
+  run ./my-script.sh
   [ "$status" -eq 1 ]
   [[ "$output" == *"Missing"* ]]
 }
