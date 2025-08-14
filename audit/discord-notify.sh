@@ -12,9 +12,8 @@ if [ -z "$WEBHOOK_URL" ]; then
 fi
 URL="$WEBHOOK_URL?wait=true"
 
-while IFS= read -r line; do
-  curl -fs -H "Content-Type: application/json" \
-  -X POST \
-  -d "$line" \
-  "$URL" > /dev/null
-done
+IFS= read -r line
+curl -fs -H "Content-Type: application/json" \
+-X POST \
+-d "$line" \
+"$URL" > /dev/null
