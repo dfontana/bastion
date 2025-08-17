@@ -1,0 +1,9 @@
+services:
+  sshd:
+    build: .
+    ports:
+      - "2323:2323"
+    volumes:
+      - ./sshd_config:/etc/ssh/sshd_config:ro
+      - ./auth.log:/var/log/auth.log
+      - ./ssh:/home/sshuser/.ssh

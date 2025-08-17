@@ -1,0 +1,263 @@
+2025-08-14T19:23:03.401842+00:00 aae7cdfadbc8 sshd[1]: Server listening on 0.0.0.0 port 2323.
+2025-08-14T19:23:03.401861+00:00 aae7cdfadbc8 sshd[1]: Server listening on :: port 2323.
+2025-08-14T19:23:32.887058+00:00 aae7cdfadbc8 sshd[1]: Received signal 15; terminating.
+2025-08-14T19:23:35.169541+00:00 aae7cdfadbc8 sshd[1]: Server listening on 0.0.0.0 port 2323.
+2025-08-14T19:23:35.169562+00:00 aae7cdfadbc8 sshd[1]: Server listening on :: port 2323.
+2025-08-14T19:23:43.605305+00:00 aae7cdfadbc8 sshd-session[12]: Failed password for sshuser from 192.168.65.1 port 35755 ssh2
+2025-08-14T19:23:47.164172+00:00 aae7cdfadbc8 sshd-session[12]: Accepted password for sshuser from 192.168.65.1 port 35755 ssh2
+2025-08-14T19:24:54.862223+00:00 aae7cdfadbc8 sshd[1]: Received signal 15; terminating.
+2025-08-14T19:25:01.850742+00:00 572e662f1864 sshd[1]: Server listening on 0.0.0.0 port 2323.
+2025-08-14T19:25:01.850762+00:00 572e662f1864 sshd[1]: Server listening on :: port 2323.
+2025-08-14T19:25:04.303046+00:00 572e662f1864 sshd-session[12]: Connection closed by 192.168.65.1 port 59402 [preauth]
+2025-08-14T19:25:33.710701+00:00 572e662f1864 sshd-session[14]: Accepted password for root from 192.168.65.1 port 29893 ssh2
+2025-08-14T19:26:21.865612+00:00 572e662f1864 sshd[1]: Received signal 15; terminating.
+2025-08-14T19:26:22.103344+00:00 572e662f1864 sshd[1]: Server listening on 0.0.0.0 port 2323.
+2025-08-14T19:26:22.103368+00:00 572e662f1864 sshd[1]: Server listening on :: port 2323.
+2025-08-14T19:26:27.267021+00:00 572e662f1864 sshd-session[12]: Failed password for root from 192.168.65.1 port 54476 ssh2
+2025-08-14T19:26:30.323674+00:00 572e662f1864 sshd-session[12]: Failed password for root from 192.168.65.1 port 54476 ssh2
+2025-08-14T19:26:35.210710+00:00 572e662f1864 sshd-session[12]: Failed password for root from 192.168.65.1 port 54476 ssh2
+2025-08-14T19:26:35.213734+00:00 572e662f1864 sshd-session[12]: Connection closed by authenticating user root 192.168.65.1 port 54476 [preauth]
+2025-08-14T19:26:43.883205+00:00 572e662f1864 sshd-session[14]: Failed password for root from 192.168.65.1 port 57274 ssh2
+2025-08-14T19:26:53.246556+00:00 572e662f1864 sshd-session[14]: Failed password for root from 192.168.65.1 port 57274 ssh2
+2025-08-14T19:26:56.909699+00:00 572e662f1864 sshd-session[14]: Failed password for root from 192.168.65.1 port 57274 ssh2
+2025-08-14T19:26:56.920266+00:00 572e662f1864 sshd-session[14]: Connection closed by authenticating user root 192.168.65.1 port 57274 [preauth]
+2025-08-14T19:27:07.479712+00:00 572e662f1864 sshd-session[16]: Failed password for root from 192.168.65.1 port 62251 ssh2
+2025-08-14T19:27:08.637659+00:00 572e662f1864 sshd-session[16]: Failed password for root from 192.168.65.1 port 62251 ssh2
+2025-08-14T19:27:09.189907+00:00 572e662f1864 sshd-session[16]: Failed password for root from 192.168.65.1 port 62251 ssh2
+2025-08-14T19:27:09.193569+00:00 572e662f1864 sshd-session[16]: Connection closed by authenticating user root 192.168.65.1 port 62251 [preauth]
+2025-08-14T19:27:32.069783+00:00 572e662f1864 sshd-session[18]: Failed password for root from 192.168.65.1 port 61076 ssh2
+2025-08-14T19:27:33.328581+00:00 572e662f1864 sshd-session[18]: Failed password for root from 192.168.65.1 port 61076 ssh2
+2025-08-14T19:27:33.338996+00:00 572e662f1864 sshd-session[18]: Connection closed by authenticating user root 192.168.65.1 port 61076 [preauth]
+2025-08-14T19:27:45.200421+00:00 572e662f1864 sshd[1]: Received signal 15; terminating.
+2025-08-14T19:27:45.424101+00:00 572e662f1864 sshd[1]: Server listening on 0.0.0.0 port 2323.
+2025-08-14T19:27:45.424128+00:00 572e662f1864 sshd[1]: Server listening on :: port 2323.
+2025-08-14T19:27:47.372604+00:00 572e662f1864 sshd-session[12]: Connection closed by authenticating user root 192.168.65.1 port 64189 [preauth]
+2025-08-14T19:27:52.646745+00:00 572e662f1864 sshd-session[14]: Connection closed by authenticating user sshuser 192.168.65.1 port 59319 [preauth]
+2025-08-14T19:29:08.741823+00:00 572e662f1864 sshd-session[16]: Connection closed by authenticating user sshuser 192.168.65.1 port 27982 [preauth]
+2025-08-14T19:29:08.799250+00:00 572e662f1864 sshd-session[18]: Connection closed by authenticating user sshuser 192.168.65.1 port 34699 [preauth]
+2025-08-14T19:29:08.871255+00:00 572e662f1864 sshd-session[20]: Connection closed by authenticating user sshuser 192.168.65.1 port 25805 [preauth]
+2025-08-14T19:29:57.321843+00:00 572e662f1864 sshd[1]: Received signal 15; terminating.
+2025-08-14T19:29:57.560806+00:00 572e662f1864 sshd[1]: Server listening on 0.0.0.0 port 2323.
+2025-08-14T19:29:57.560825+00:00 572e662f1864 sshd[1]: Server listening on :: port 2323.
+2025-08-14T19:30:13.089214+00:00 572e662f1864 sshd-session[12]: Connection closed by authenticating user sshuser 192.168.65.1 port 44940 [preauth]
+2025-08-14T19:31:05.801005+00:00 572e662f1864 sshd[1]: Received signal 15; terminating.
+2025-08-14T19:31:06.058561+00:00 572e662f1864 sshd[1]: Server listening on 0.0.0.0 port 2323.
+2025-08-14T19:31:06.058666+00:00 572e662f1864 sshd[1]: Server listening on :: port 2323.
+2025-08-14T19:31:08.846761+00:00 572e662f1864 sshd-session[12]: Connection closed by authenticating user sshuser 192.168.65.1 port 55516 [preauth]
+2025-08-14T19:31:26.647491+00:00 572e662f1864 sshd[1]: Received signal 15; terminating.
+2025-08-14T19:31:26.891265+00:00 572e662f1864 sshd[1]: Server listening on 0.0.0.0 port 2323.
+2025-08-14T19:31:26.891287+00:00 572e662f1864 sshd[1]: Server listening on :: port 2323.
+2025-08-14T19:31:30.056050+00:00 572e662f1864 sshd-session[12]: Connection closed by authenticating user sshuser 192.168.65.1 port 33534 [preauth]
+2025-08-14T19:31:39.200641+00:00 572e662f1864 sshd-session[14]: Connection closed by authenticating user sshuser 192.168.65.1 port 65103 [preauth]
+2025-08-14T19:31:40.508835+00:00 572e662f1864 sshd-session[16]: Connection closed by authenticating user sshuser 192.168.65.1 port 47381 [preauth]
+2025-08-14T19:31:41.276458+00:00 572e662f1864 sshd-session[18]: Connection closed by authenticating user sshuser 192.168.65.1 port 42286 [preauth]
+2025-08-14T19:32:16.693641+00:00 572e662f1864 sshd-session[20]: Connection closed by authenticating user sshuser 192.168.65.1 port 45935 [preauth]
+2025-08-14T19:32:24.933905+00:00 572e662f1864 sshd-session[22]: Connection closed by authenticating user sshuser 192.168.65.1 port 38452 [preauth]
+2025-08-14T19:32:32.970362+00:00 572e662f1864 sshd-session[24]: Connection closed by authenticating user root 192.168.65.1 port 52206 [preauth]
+2025-08-14T19:32:35.041975+00:00 572e662f1864 sshd-session[26]: Connection closed by authenticating user sshuser 192.168.65.1 port 22735 [preauth]
+2025-08-14T19:32:36.373413+00:00 572e662f1864 sshd-session[28]: Connection closed by authenticating user sshuser 192.168.65.1 port 65276 [preauth]
+2025-08-14T19:33:19.354475+00:00 572e662f1864 sshd-session[30]: Invalid user koss from 192.168.65.1 port 45119
+2025-08-14T19:33:19.370587+00:00 572e662f1864 sshd-session[30]: Connection closed by invalid user koss 192.168.65.1 port 45119 [preauth]
+2025-08-14T19:33:25.206305+00:00 572e662f1864 sshd-session[32]: Connection closed by authenticating user sshuser 192.168.65.1 port 25234 [preauth]
+2025-08-14T19:33:25.928812+00:00 572e662f1864 sshd-session[34]: Connection closed by authenticating user sshuser 192.168.65.1 port 43018 [preauth]
+2025-08-14T19:33:26.522337+00:00 572e662f1864 sshd-session[36]: Connection closed by authenticating user sshuser 192.168.65.1 port 24803 [preauth]
+2025-08-14T19:33:27.045139+00:00 572e662f1864 sshd-session[38]: Connection closed by authenticating user sshuser 192.168.65.1 port 25080 [preauth]
+2025-08-14T19:33:27.513271+00:00 572e662f1864 sshd[1]: drop connection #0 from [192.168.65.1]:42542 on [172.18.0.2]:2323 penalty: failed authentication
+2025-08-14T19:33:28.086624+00:00 572e662f1864 sshd[1]: drop connection #0 from [192.168.65.1]:37737 on [172.18.0.2]:2323 penalty: failed authentication
+2025-08-14T19:33:28.637481+00:00 572e662f1864 sshd[1]: drop connection #0 from [192.168.65.1]:34530 on [172.18.0.2]:2323 penalty: failed authentication
+2025-08-14T19:33:29.242143+00:00 572e662f1864 sshd[1]: drop connection #0 from [192.168.65.1]:55723 on [172.18.0.2]:2323 penalty: failed authentication
+2025-08-14T19:33:41.341249+00:00 572e662f1864 sshd[1]: drop connection #0 from [192.168.65.1]:19329 on [172.18.0.2]:2323 penalty: failed authentication
+2025-08-14T19:34:24.600630+00:00 572e662f1864 sshd-session[40]: Connection closed by authenticating user root 192.168.65.1 port 57179 [preauth]
+2025-08-14T19:36:55.100556+00:00 572e662f1864 sshd-session[42]: Connection closed by authenticating user sshuser 192.168.65.1 port 46657 [preauth]
+2025-08-14T19:37:02.252111+00:00 572e662f1864 sshd-session[44]: Invalid user koss from 192.168.65.1 port 63194
+2025-08-14T19:37:02.264484+00:00 572e662f1864 sshd-session[44]: Connection closed by invalid user koss 192.168.65.1 port 63194 [preauth]
+2025-08-14T19:37:32.307079+00:00 572e662f1864 sshd-session[46]: Connection closed by authenticating user root 192.168.65.1 port 24468 [preauth]
+2025-08-14T19:37:39.425530+00:00 572e662f1864 sshd-session[48]: Connection closed by authenticating user root 192.168.65.1 port 50905 [preauth]
+2025-08-14T19:38:14.508607+00:00 572e662f1864 sshd-session[50]: Connection closed by authenticating user root 192.168.65.1 port 54277 [preauth]
+2025-08-14T19:38:20.766546+00:00 572e662f1864 sshd-session[52]: Connection closed by authenticating user sshuser 192.168.65.1 port 26428 [preauth]
+2025-08-14T19:38:28.755396+00:00 572e662f1864 sshd-session[54]: Invalid user koss from 192.168.65.1 port 20910
+2025-08-14T19:38:28.780178+00:00 572e662f1864 sshd-session[54]: Connection closed by invalid user koss 192.168.65.1 port 20910 [preauth]
+2025-08-14T19:39:32.565269+00:00 572e662f1864 sshd-session[56]: Connection closed by authenticating user sshuser 192.168.65.1 port 54321 [preauth]
+2025-08-14T19:39:40.064296+00:00 572e662f1864 sshd[1]: Received signal 15; terminating.
+2025-08-14T19:39:40.306421+00:00 572e662f1864 sshd[1]: Server listening on 0.0.0.0 port 2323.
+2025-08-14T19:39:40.306435+00:00 572e662f1864 sshd[1]: Server listening on :: port 2323.
+2025-08-14T19:39:41.808796+00:00 572e662f1864 sshd-session[12]: Connection closed by authenticating user sshuser 192.168.65.1 port 61404 [preauth]
+2025-08-14T19:39:54.550384+00:00 572e662f1864 sshd-session[14]: Connection closed by authenticating user sshuser 192.168.65.1 port 29598 [preauth]
+2025-08-14T19:40:03.724451+00:00 572e662f1864 sshd[1]: Received signal 15; terminating.
+2025-08-14T19:40:03.968682+00:00 572e662f1864 sshd[1]: Server listening on 0.0.0.0 port 2323.
+2025-08-14T19:40:03.968708+00:00 572e662f1864 sshd[1]: Server listening on :: port 2323.
+2025-08-14T19:40:08.903746+00:00 572e662f1864 sshd-session[12]: Accepted password for sshuser from 192.168.65.1 port 22893 ssh2
+2025-08-14T19:40:47.298465+00:00 572e662f1864 sshd-session[14]: Received disconnect from 192.168.65.1 port 22893:11: disconnected by user
+2025-08-14T19:40:47.298723+00:00 572e662f1864 sshd-session[14]: Disconnected from user sshuser 192.168.65.1 port 22893
+2025-08-14T19:40:56.799885+00:00 572e662f1864 sshd-session[18]: Failed password for root from 192.168.65.1 port 62988 ssh2
+2025-08-14T19:41:00.511613+00:00 572e662f1864 sshd-session[18]: Failed password for root from 192.168.65.1 port 62988 ssh2
+2025-08-14T19:41:03.815662+00:00 572e662f1864 sshd-session[18]: Failed password for root from 192.168.65.1 port 62988 ssh2
+2025-08-14T19:41:03.824681+00:00 572e662f1864 sshd-session[18]: Connection closed by authenticating user root 192.168.65.1 port 62988 [preauth]
+2025-08-14T19:41:11.101852+00:00 572e662f1864 sshd-session[20]: Failed password for root from 192.168.65.1 port 53711 ssh2
+2025-08-14T19:41:13.050058+00:00 572e662f1864 sshd-session[20]: Failed password for root from 192.168.65.1 port 53711 ssh2
+2025-08-14T19:41:16.671586+00:00 572e662f1864 sshd-session[20]: Failed password for root from 192.168.65.1 port 53711 ssh2
+2025-08-14T19:41:16.681592+00:00 572e662f1864 sshd-session[20]: Connection closed by authenticating user root 192.168.65.1 port 53711 [preauth]
+2025-08-14T19:41:23.578407+00:00 572e662f1864 sshd-session[22]: Accepted password for sshuser from 192.168.65.1 port 23130 ssh2
+2025-08-14T19:41:31.022428+00:00 572e662f1864 sshd-session[24]: Received disconnect from 192.168.65.1 port 23130:11: disconnected by user
+2025-08-14T19:41:31.022730+00:00 572e662f1864 sshd-session[24]: Disconnected from user sshuser 192.168.65.1 port 23130
+2025-08-14T19:41:45.151926+00:00 572e662f1864 sshd[1]: Received signal 15; terminating.
+2025-08-14T19:41:45.372302+00:00 572e662f1864 sshd[1]: Server listening on 0.0.0.0 port 2323.
+2025-08-14T19:41:45.372323+00:00 572e662f1864 sshd[1]: Server listening on :: port 2323.
+2025-08-14T19:41:55.640118+00:00 572e662f1864 sshd-session[12]: Accepted password for root from 192.168.65.1 port 54925 ssh2
+2025-08-14T19:43:22.699924+00:00 572e662f1864 sshd-session[14]: Received disconnect from 192.168.65.1 port 54925:11: disconnected by user
+2025-08-14T19:43:22.700371+00:00 572e662f1864 sshd-session[14]: Disconnected from user root 192.168.65.1 port 54925
+2025-08-14T19:43:28.757473+00:00 572e662f1864 sshd[1]: Received signal 15; terminating.
+2025-08-14T19:43:37.276301+00:00 d289c90d2ffd sshd[1]: Server listening on 0.0.0.0 port 2323.
+2025-08-14T19:43:37.276324+00:00 d289c90d2ffd sshd[1]: Server listening on :: port 2323.
+2025-08-14T19:43:40.787358+00:00 d289c90d2ffd sshd-session[12]: Connection closed by 192.168.65.1 port 31417 [preauth]
+2025-08-14T19:43:57.681242+00:00 d289c90d2ffd sshd-session[14]: Accepted password for sshuser from 192.168.65.1 port 18760 ssh2
+2025-08-14T19:44:45.837045+00:00 d289c90d2ffd sshd[1]: Received signal 15; terminating.
+2025-08-14T19:44:46.055993+00:00 5817f0eac5c0 sshd[1]: Server listening on 0.0.0.0 port 2323.
+2025-08-14T19:44:46.056039+00:00 5817f0eac5c0 sshd[1]: Server listening on :: port 2323.
+2025-08-14T19:44:49.723217+00:00 5817f0eac5c0 sshd-session[12]: Connection closed by 192.168.65.1 port 58430 [preauth]
+2025-08-14T19:45:03.847548+00:00 5817f0eac5c0 sshd-session[14]: Accepted password for sshuser from 192.168.65.1 port 26023 ssh2
+2025-08-14T19:45:22.290063+00:00 5817f0eac5c0 sshd-session[80]: Accepted publickey for sshuser from 192.168.65.1 port 37097 ssh2: RSA SHA256:rhI76FmBXcn95DTffj3Gvjr8rgirf7x/wVWpBsaQRr4
+2025-08-14T19:45:40.866268+00:00 5817f0eac5c0 sshd-session[82]: Received disconnect from 192.168.65.1 port 37097:11: disconnected by user
+2025-08-14T19:45:40.866617+00:00 5817f0eac5c0 sshd-session[82]: Disconnected from user sshuser 192.168.65.1 port 37097
+2025-08-14T20:00:48.486305+00:00 5817f0eac5c0 sshd-session[207]: Accepted publickey for sshuser from 192.168.65.1 port 33121 ssh2: RSA SHA256:rhI76FmBXcn95DTffj3Gvjr8rgirf7x/wVWpBsaQRr4
+2025-08-14T20:00:51.795067+00:00 5817f0eac5c0 sshd-session[209]: Received disconnect from 192.168.65.1 port 33121:11: disconnected by user
+2025-08-14T20:00:51.795339+00:00 5817f0eac5c0 sshd-session[209]: Disconnected from user sshuser 192.168.65.1 port 33121
+2025-08-14T20:01:13.541441+00:00 5817f0eac5c0 sshd-session[272]: Accepted password for root from 192.168.65.1 port 62619 ssh2
+2025-08-14T20:01:30.268390+00:00 5817f0eac5c0 sshd-session[274]: Received disconnect from 192.168.65.1 port 62619:11: disconnected by user
+2025-08-14T20:01:30.268664+00:00 5817f0eac5c0 sshd-session[274]: Disconnected from user root 192.168.65.1 port 62619
+2025-08-14T20:01:32.440909+00:00 5817f0eac5c0 sshd[1]: Received signal 15; terminating.
+2025-08-14T20:01:39.772923+00:00 4ed564801cba sshd[1]: Server listening on 0.0.0.0 port 2323.
+2025-08-14T20:01:39.772947+00:00 4ed564801cba sshd[1]: Server listening on :: port 2323.
+2025-08-14T20:01:45.612908+00:00 4ed564801cba sshd-session[12]: rexec line 12: Unsupported option UsePAM [preauth]
+2025-08-14T20:01:45.612946+00:00 4ed564801cba sshd-session[12]: rexec line 50: Deprecated option UsePrivilegeSeparation [preauth]
+2025-08-14T20:01:45.613931+00:00 4ed564801cba sshd-session[12]: Unable to negotiate with 192.168.65.1 port 52827: no matching host key type found. Their offer: ssh-ed25519-cert-v01@openssh.com,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,sk-ssh-ed25519-cert-v01@openssh.com,sk-ecdsa-sha2-nistp256-cert-v01@openssh.com,rsa-sha2-512-cert-v01@openssh.com,rsa-sha2-256-cert-v01@openssh.com,ssh-ed25519,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ssh-ed25519@openssh.com,s
+2025-08-14T20:02:02.947176+00:00 4ed564801cba sshd-session[14]: rexec line 12: Unsupported option UsePAM [preauth]
+2025-08-14T20:02:02.947213+00:00 4ed564801cba sshd-session[14]: rexec line 50: Deprecated option UsePrivilegeSeparation [preauth]
+2025-08-14T20:02:02.948221+00:00 4ed564801cba sshd-session[14]: Unable to negotiate with 192.168.65.1 port 43674: no matching host key type found. Their offer: ssh-ed25519-cert-v01@openssh.com,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,sk-ssh-ed25519-cert-v01@openssh.com,sk-ecdsa-sha2-nistp256-cert-v01@openssh.com,rsa-sha2-512-cert-v01@openssh.com,rsa-sha2-256-cert-v01@openssh.com,ssh-ed25519,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ssh-ed25519@openssh.com,s
+2025-08-14T20:02:04.887219+00:00 4ed564801cba sshd-session[16]: rexec line 12: Unsupported option UsePAM [preauth]
+2025-08-14T20:02:04.887239+00:00 4ed564801cba sshd-session[16]: rexec line 50: Deprecated option UsePrivilegeSeparation [preauth]
+2025-08-14T20:02:04.887784+00:00 4ed564801cba sshd-session[16]: Unable to negotiate with 192.168.65.1 port 16488: no matching host key type found. Their offer: ssh-ed25519-cert-v01@openssh.com,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,sk-ssh-ed25519-cert-v01@openssh.com,sk-ecdsa-sha2-nistp256-cert-v01@openssh.com,rsa-sha2-512-cert-v01@openssh.com,rsa-sha2-256-cert-v01@openssh.com,ssh-ed25519,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ssh-ed25519@openssh.com,s
+2025-08-14T20:03:10.778903+00:00 4ed564801cba sshd-session[18]: rexec line 12: Unsupported option UsePAM [preauth]
+2025-08-14T20:03:10.778926+00:00 4ed564801cba sshd-session[18]: rexec line 50: Deprecated option UsePrivilegeSeparation [preauth]
+2025-08-14T20:03:10.779612+00:00 4ed564801cba sshd-session[18]: Unable to negotiate with 192.168.65.1 port 52192: no matching host key type found. Their offer: ssh-ed25519-cert-v01@openssh.com,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,sk-ssh-ed25519-cert-v01@openssh.com,sk-ecdsa-sha2-nistp256-cert-v01@openssh.com,rsa-sha2-512-cert-v01@openssh.com,rsa-sha2-256-cert-v01@openssh.com,ssh-ed25519,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ssh-ed25519@openssh.com,s
+2025-08-14T20:03:15.426866+00:00 4ed564801cba sshd-session[20]: rexec line 12: Unsupported option UsePAM [preauth]
+2025-08-14T20:03:15.426889+00:00 4ed564801cba sshd-session[20]: rexec line 50: Deprecated option UsePrivilegeSeparation [preauth]
+2025-08-14T20:03:15.427554+00:00 4ed564801cba sshd-session[20]: Unable to negotiate with 192.168.65.1 port 21883: no matching host key type found. Their offer: ssh-ed25519-cert-v01@openssh.com,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,sk-ssh-ed25519-cert-v01@openssh.com,sk-ecdsa-sha2-nistp256-cert-v01@openssh.com,rsa-sha2-512-cert-v01@openssh.com,rsa-sha2-256-cert-v01@openssh.com,ssh-ed25519,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ssh-ed25519@openssh.com,s
+2025-08-14T20:03:29.431757+00:00 4ed564801cba sshd-session[22]: rexec line 12: Unsupported option UsePAM [preauth]
+2025-08-14T20:03:29.431794+00:00 4ed564801cba sshd-session[22]: rexec line 50: Deprecated option UsePrivilegeSeparation [preauth]
+2025-08-14T20:03:29.432842+00:00 4ed564801cba sshd-session[22]: Unable to negotiate with 192.168.65.1 port 24148: no matching host key type found. Their offer: ssh-ed25519-cert-v01@openssh.com,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,sk-ssh-ed25519-cert-v01@openssh.com,sk-ecdsa-sha2-nistp256-cert-v01@openssh.com,rsa-sha2-512-cert-v01@openssh.com,rsa-sha2-256-cert-v01@openssh.com,ssh-ed25519,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ssh-ed25519@openssh.com,s
+2025-08-14T20:03:32.688309+00:00 4ed564801cba sshd-session[24]: rexec line 12: Unsupported option UsePAM [preauth]
+2025-08-14T20:03:32.688348+00:00 4ed564801cba sshd-session[24]: rexec line 50: Deprecated option UsePrivilegeSeparation [preauth]
+2025-08-14T20:03:32.689333+00:00 4ed564801cba sshd-session[24]: Unable to negotiate with 192.168.65.1 port 51279: no matching host key type found. Their offer: ssh-ed25519-cert-v01@openssh.com,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,sk-ssh-ed25519-cert-v01@openssh.com,sk-ecdsa-sha2-nistp256-cert-v01@openssh.com,rsa-sha2-512-cert-v01@openssh.com,rsa-sha2-256-cert-v01@openssh.com,ssh-ed25519,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ssh-ed25519@openssh.com,s
+2025-08-14T20:04:36.165116+00:00 4ed564801cba sshd[1]: Received signal 15; terminating.
+2025-08-14T20:04:41.230589+00:00 a6304d7087f2 sshd[1]: Server listening on 0.0.0.0 port 2323.
+2025-08-14T20:04:41.230608+00:00 a6304d7087f2 sshd[1]: Server listening on :: port 2323.
+2025-08-14T20:04:43.466400+00:00 a6304d7087f2 sshd-session[12]: rexec line 12: Unsupported option UsePAM [preauth]
+2025-08-14T20:04:43.466427+00:00 a6304d7087f2 sshd-session[12]: rexec line 50: Deprecated option UsePrivilegeSeparation [preauth]
+2025-08-14T20:04:43.489322+00:00 a6304d7087f2 sshd-session[12]: User root from 192.168.65.1 not allowed because not listed in AllowUsers
+2025-08-14T20:04:43.503433+00:00 a6304d7087f2 sshd-session[12]: Connection closed by invalid user root 192.168.65.1 port 53815 [preauth]
+2025-08-14T20:08:03.463208+00:00 a6304d7087f2 sshd-session[14]: rexec line 12: Unsupported option UsePAM [preauth]
+2025-08-14T20:08:03.463282+00:00 a6304d7087f2 sshd-session[14]: rexec line 50: Deprecated option UsePrivilegeSeparation [preauth]
+2025-08-14T20:08:03.505309+00:00 a6304d7087f2 sshd-session[14]: User root from 192.168.65.1 not allowed because not listed in AllowUsers
+2025-08-14T20:08:03.531433+00:00 a6304d7087f2 sshd-session[14]: Connection closed by invalid user root 192.168.65.1 port 64210 [preauth]
+2025-08-14T20:08:14.594536+00:00 a6304d7087f2 sshd-session[16]: rexec line 12: Unsupported option UsePAM [preauth]
+2025-08-14T20:08:14.594606+00:00 a6304d7087f2 sshd-session[16]: rexec line 50: Deprecated option UsePrivilegeSeparation [preauth]
+2025-08-14T20:08:14.633741+00:00 a6304d7087f2 sshd-session[16]: Invalid user koss from 192.168.65.1 port 20347
+2025-08-14T20:08:14.661329+00:00 a6304d7087f2 sshd-session[16]: Connection closed by invalid user koss 192.168.65.1 port 20347 [preauth]
+2025-08-14T20:08:22.884960+00:00 a6304d7087f2 sshd-session[18]: rexec line 12: Unsupported option UsePAM [preauth]
+2025-08-14T20:08:22.884999+00:00 a6304d7087f2 sshd-session[18]: rexec line 50: Deprecated option UsePrivilegeSeparation [preauth]
+2025-08-14T20:08:22.942140+00:00 a6304d7087f2 sshd-session[18]: Connection closed by authenticating user sshuser 192.168.65.1 port 19196 [preauth]
+2025-08-14T20:08:57.601365+00:00 a6304d7087f2 sshd[1]: Received signal 15; terminating.
+2025-08-14T20:08:57.846324+00:00 a6304d7087f2 sshd[1]: Server listening on 0.0.0.0 port 2323.
+2025-08-14T20:08:57.846348+00:00 a6304d7087f2 sshd[1]: Server listening on :: port 2323.
+2025-08-14T20:09:05.696594+00:00 a6304d7087f2 sshd-session[12]: rexec line 12: Unsupported option UsePAM [preauth]
+2025-08-14T20:09:05.756023+00:00 a6304d7087f2 sshd-session[12]: Connection closed by authenticating user sshuser 192.168.65.1 port 44686 [preauth]
+2025-08-14T20:09:38.813755+00:00 a6304d7087f2 sshd-session[14]: rexec line 12: Unsupported option UsePAM [preauth]
+2025-08-14T20:09:38.877392+00:00 a6304d7087f2 sshd-session[14]: Postponed publickey for sshuser from 192.168.65.1 port 28121 ssh2 [preauth]
+2025-08-14T20:09:38.884551+00:00 a6304d7087f2 sshd-session[14]: Accepted publickey for sshuser from 192.168.65.1 port 28121 ssh2: ED25519 SHA256:wKNw6j8g0j5wJFIsexoPx92O6CRo36aE777UCTztHD0
+2025-08-14T20:09:43.780947+00:00 a6304d7087f2 sshd-session[16]: Received disconnect from 192.168.65.1 port 28121:11: disconnected by user
+2025-08-14T20:09:43.781241+00:00 a6304d7087f2 sshd-session[16]: Disconnected from user sshuser 192.168.65.1 port 28121
+2025-08-14T20:09:46.615872+00:00 a6304d7087f2 sshd-session[18]: rexec line 12: Unsupported option UsePAM [preauth]
+2025-08-14T20:09:46.667577+00:00 a6304d7087f2 sshd-session[18]: Connection closed by authenticating user sshuser 192.168.65.1 port 32572 [preauth]
+2025-08-14T20:24:40.727607+00:00 a6304d7087f2 sshd[1]: Received signal 15; terminating.
+2025-08-14T20:24:40.962890+00:00 a6304d7087f2 sshd[1]: Server listening on 0.0.0.0 port 2323.
+2025-08-14T20:24:40.962906+00:00 a6304d7087f2 sshd[1]: Server listening on :: port 2323.
+2025-08-14T20:24:43.853657+00:00 a6304d7087f2 sshd-session[12]: rexec line 9: Unsupported option GSSAPIAuthentication [preauth]
+2025-08-14T20:24:43.853676+00:00 a6304d7087f2 sshd-session[12]: rexec line 14: Unsupported option UsePAM [preauth]
+2025-08-14T20:24:43.878461+00:00 a6304d7087f2 sshd-session[12]: reprocess config line 9: Unsupported option GSSAPIAuthentication
+2025-08-14T20:24:43.878739+00:00 a6304d7087f2 sshd-session[12]: User root from 192.168.65.1 not allowed because not listed in AllowUsers
+2025-08-14T20:24:43.891572+00:00 a6304d7087f2 sshd-session[12]: Connection closed by invalid user root 192.168.65.1 port 45176 [preauth]
+2025-08-14T20:26:51.800113+00:00 a6304d7087f2 sshd-session[14]: rexec line 9: Unsupported option GSSAPIAuthentication [preauth]
+2025-08-14T20:26:51.800142+00:00 a6304d7087f2 sshd-session[14]: rexec line 14: Unsupported option UsePAM [preauth]
+2025-08-14T20:26:51.801511+00:00 a6304d7087f2 sshd-session[14]: Connection closed by 192.168.65.1 port 28123 [preauth]
+2025-08-14T20:26:51.808644+00:00 a6304d7087f2 sshd-session[16]: rexec line 9: Unsupported option GSSAPIAuthentication [preauth]
+2025-08-14T20:26:51.808660+00:00 a6304d7087f2 sshd-session[16]: rexec line 14: Unsupported option UsePAM [preauth]
+2025-08-14T20:26:51.814935+00:00 a6304d7087f2 sshd-session[16]: Connection closed by 192.168.65.1 port 54029 [preauth]
+2025-08-14T20:26:51.823410+00:00 a6304d7087f2 sshd-session[20]: Connection closed by 192.168.65.1 port 55713
+2025-08-14T20:26:51.823422+00:00 a6304d7087f2 sshd-session[18]: Connection closed by 192.168.65.1 port 42995
+2025-08-14T20:26:51.823931+00:00 a6304d7087f2 sshd-session[19]: Connection closed by 192.168.65.1 port 64247
+2025-08-14T20:26:51.827426+00:00 a6304d7087f2 sshd-session[21]: Connection closed by 192.168.65.1 port 24306
+2025-08-14T20:26:51.827775+00:00 a6304d7087f2 sshd-session[22]: Connection closed by 192.168.65.1 port 28557
+2025-08-14T20:26:51.828070+00:00 a6304d7087f2 sshd-session[23]: Connection closed by 192.168.65.1 port 50139
+2025-08-14T20:26:51.831449+00:00 a6304d7087f2 sshd-session[24]: Connection closed by 192.168.65.1 port 20569
+2025-08-14T20:26:51.831986+00:00 a6304d7087f2 sshd-session[25]: Connection closed by 192.168.65.1 port 49582
+2025-08-14T20:26:51.832727+00:00 a6304d7087f2 sshd-session[26]: Connection closed by 192.168.65.1 port 29572
+2025-08-14T20:26:51.836084+00:00 a6304d7087f2 sshd-session[27]: Connection closed by 192.168.65.1 port 20121
+2025-08-14T20:26:51.836422+00:00 a6304d7087f2 sshd-session[28]: Connection closed by 192.168.65.1 port 42638
+2025-08-14T20:26:51.836950+00:00 a6304d7087f2 sshd-session[29]: Connection closed by 192.168.65.1 port 44657
+2025-08-14T20:26:51.840713+00:00 a6304d7087f2 sshd-session[30]: Connection closed by 192.168.65.1 port 48107
+2025-08-14T20:26:51.840896+00:00 a6304d7087f2 sshd-session[31]: Connection closed by 192.168.65.1 port 33148
+2025-08-14T20:26:51.841744+00:00 a6304d7087f2 sshd-session[32]: Connection closed by 192.168.65.1 port 53375
+2025-08-14T20:26:51.841800+00:00 a6304d7087f2 sshd[1]: drop connection #2 from [192.168.65.1]:16753 on [172.18.0.2]:2323 penalty: connections without attempting authentication
+2025-08-14T20:26:51.842255+00:00 a6304d7087f2 sshd[1]: drop connection #1 from [192.168.65.1]:49575 on [172.18.0.2]:2323 penalty: connections without attempting authentication
+2025-08-14T20:26:51.842528+00:00 a6304d7087f2 sshd[1]: drop connection #1 from [192.168.65.1]:38918 on [172.18.0.2]:2323 penalty: connections without attempting authentication
+2025-08-14T20:26:51.843104+00:00 a6304d7087f2 sshd[1]: drop connection #1 from [192.168.65.1]:38688 on [172.18.0.2]:2323 penalty: connections without attempting authentication
+2025-08-14T20:26:51.843293+00:00 a6304d7087f2 sshd[1]: drop connection #1 from [192.168.65.1]:54397 on [172.18.0.2]:2323 penalty: connections without attempting authentication
+2025-08-14T20:26:51.843889+00:00 a6304d7087f2 sshd[1]: drop connection #1 from [192.168.65.1]:35497 on [172.18.0.2]:2323 penalty: connections without attempting authentication
+2025-08-14T20:26:51.844027+00:00 a6304d7087f2 sshd[1]: drop connection #1 from [192.168.65.1]:20482 on [172.18.0.2]:2323 penalty: connections without attempting authentication
+2025-08-14T20:26:51.844749+00:00 a6304d7087f2 sshd-session[33]: Connection closed by 192.168.65.1 port 19572
+2025-08-14T20:27:45.417017+00:00 a6304d7087f2 sshd-session[34]: rexec line 9: Unsupported option GSSAPIAuthentication [preauth]
+2025-08-14T20:27:45.417035+00:00 a6304d7087f2 sshd-session[34]: rexec line 14: Unsupported option UsePAM [preauth]
+2025-08-14T20:27:45.417845+00:00 a6304d7087f2 sshd-session[34]: Connection closed by 192.168.65.1 port 30995 [preauth]
+2025-08-14T20:27:45.422977+00:00 a6304d7087f2 sshd-session[36]: rexec line 9: Unsupported option GSSAPIAuthentication [preauth]
+2025-08-14T20:27:45.422991+00:00 a6304d7087f2 sshd-session[36]: rexec line 14: Unsupported option UsePAM [preauth]
+2025-08-14T20:27:45.428503+00:00 a6304d7087f2 sshd-session[36]: Connection closed by 192.168.65.1 port 19603 [preauth]
+2025-08-14T20:27:45.435074+00:00 a6304d7087f2 sshd-session[39]: Connection closed by 192.168.65.1 port 64859
+2025-08-14T20:27:45.435075+00:00 a6304d7087f2 sshd-session[38]: Connection closed by 192.168.65.1 port 18694
+2025-08-14T20:27:45.435281+00:00 a6304d7087f2 sshd-session[40]: Connection closed by 192.168.65.1 port 58803
+2025-08-14T20:27:45.438397+00:00 a6304d7087f2 sshd-session[41]: Connection closed by 192.168.65.1 port 64772
+2025-08-14T20:27:45.438788+00:00 a6304d7087f2 sshd-session[42]: Connection closed by 192.168.65.1 port 56764
+2025-08-14T20:27:45.439018+00:00 a6304d7087f2 sshd-session[43]: Connection closed by 192.168.65.1 port 54090
+2025-08-14T20:27:45.441911+00:00 a6304d7087f2 sshd-session[44]: Connection closed by 192.168.65.1 port 33244
+2025-08-14T20:27:45.442261+00:00 a6304d7087f2 sshd-session[45]: Connection closed by 192.168.65.1 port 22331
+2025-08-14T20:27:45.442430+00:00 a6304d7087f2 sshd-session[46]: Connection closed by 192.168.65.1 port 22198
+2025-08-14T20:27:45.445512+00:00 a6304d7087f2 sshd-session[47]: Connection closed by 192.168.65.1 port 47784
+2025-08-14T20:27:45.445671+00:00 a6304d7087f2 sshd-session[48]: Connection closed by 192.168.65.1 port 21834
+2025-08-14T20:27:45.446055+00:00 a6304d7087f2 sshd-session[49]: Connection closed by 192.168.65.1 port 36613
+2025-08-14T20:27:45.448953+00:00 a6304d7087f2 sshd-session[50]: Connection closed by 192.168.65.1 port 19335
+2025-08-14T20:27:45.449423+00:00 a6304d7087f2 sshd-session[51]: Connection closed by 192.168.65.1 port 16996
+2025-08-14T20:27:45.449782+00:00 a6304d7087f2 sshd-session[52]: Connection closed by 192.168.65.1 port 28380
+2025-08-14T20:27:45.452204+00:00 a6304d7087f2 sshd-session[53]: Connection closed by 192.168.65.1 port 24734
+2025-08-14T20:28:10.714190+00:00 a6304d7087f2 sshd-session[54]: rexec line 9: Unsupported option GSSAPIAuthentication [preauth]
+2025-08-14T20:28:10.714206+00:00 a6304d7087f2 sshd-session[54]: rexec line 14: Unsupported option UsePAM [preauth]
+2025-08-14T20:28:10.715097+00:00 a6304d7087f2 sshd-session[54]: Connection closed by 192.168.65.1 port 27104 [preauth]
+2025-08-14T20:28:10.721100+00:00 a6304d7087f2 sshd-session[56]: rexec line 9: Unsupported option GSSAPIAuthentication [preauth]
+2025-08-14T20:28:10.721115+00:00 a6304d7087f2 sshd-session[56]: rexec line 14: Unsupported option UsePAM [preauth]
+2025-08-14T20:28:10.726921+00:00 a6304d7087f2 sshd-session[56]: Connection closed by 192.168.65.1 port 28356 [preauth]
+2025-08-14T20:28:10.733372+00:00 a6304d7087f2 sshd-session[58]: Connection closed by 192.168.65.1 port 64453
+2025-08-14T20:28:10.733377+00:00 a6304d7087f2 sshd-session[59]: Connection closed by 192.168.65.1 port 16398
+2025-08-14T20:28:10.733627+00:00 a6304d7087f2 sshd-session[60]: Connection closed by 192.168.65.1 port 37761
+2025-08-14T20:28:10.736875+00:00 a6304d7087f2 sshd-session[61]: Connection closed by 192.168.65.1 port 44691
+2025-08-14T20:28:10.737245+00:00 a6304d7087f2 sshd-session[62]: Connection closed by 192.168.65.1 port 41077
+2025-08-14T20:28:10.737360+00:00 a6304d7087f2 sshd-session[63]: Connection closed by 192.168.65.1 port 65051
+2025-08-14T20:28:10.740346+00:00 a6304d7087f2 sshd-session[64]: Connection closed by 192.168.65.1 port 24436
+2025-08-14T20:28:10.740451+00:00 a6304d7087f2 sshd-session[65]: Connection closed by 192.168.65.1 port 50554
+2025-08-14T20:28:10.740786+00:00 a6304d7087f2 sshd-session[66]: Connection closed by 192.168.65.1 port 57065
+2025-08-14T20:28:10.743893+00:00 a6304d7087f2 sshd-session[67]: Connection closed by 192.168.65.1 port 27727
+2025-08-14T20:28:10.744045+00:00 a6304d7087f2 sshd-session[68]: Connection closed by 192.168.65.1 port 28334
+2025-08-14T20:28:10.744358+00:00 a6304d7087f2 sshd-session[69]: Connection closed by 192.168.65.1 port 46272
+2025-08-14T20:28:10.747260+00:00 a6304d7087f2 sshd-session[70]: Connection closed by 192.168.65.1 port 31350
+2025-08-14T20:28:10.747663+00:00 a6304d7087f2 sshd-session[72]: Connection closed by 192.168.65.1 port 56274
+2025-08-14T20:28:10.747810+00:00 a6304d7087f2 sshd-session[71]: Connection closed by 192.168.65.1 port 30532
+2025-08-14T20:28:10.750670+00:00 a6304d7087f2 sshd-session[73]: Connection closed by 192.168.65.1 port 27175
+2025-08-17T03:09:17.167328+00:00 a6304d7087f2 sshd[1]: Received signal 15; terminating.
